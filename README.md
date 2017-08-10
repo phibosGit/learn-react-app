@@ -44,7 +44,6 @@ For example ```styles.module.css``` or ```header.module.sass``` or ```footer.mod
 - ```REACT_APP_BABEL_STAGE_0=true``` - enable stage-0 Babel preset
 - ```REACT_APP_DECORATORS=true``` - enable decorators support
 
-In order to use css,sass,less, or stylus modules, the file name must ends with .modules.css
 ### 🤔 Why?
 The ```create-react-app``` app doesn't allow user configuration and modifications for few reasons:
 
