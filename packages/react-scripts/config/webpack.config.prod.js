@@ -165,13 +165,11 @@ module.exports = {
             include: paths.appSrc,
             loader: require.resolve('babel-loader'),
             options: {
-              // @remove-on-eject-begin
               babelrc: false,
               presets: [require.resolve('babel-preset-react-app')].concat(
                 customConfig.babelPresets
               ),
               plugins: customConfig.babelPlugins,
-              // @remove-on-eject-end
               compact: true,
             },
           },
