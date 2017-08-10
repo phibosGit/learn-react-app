@@ -86,6 +86,10 @@ inquirer
       'config',
       'config/jest',
       'config/custom-react-scripts',
+      'config/custom-react-scripts/customizers',
+      'config/custom-react-scripts/options',
+      'config/custom-react-scripts/utils',
+      'config/custom-react-scripts/webpack-config',
       'scripts',
     ];
 
