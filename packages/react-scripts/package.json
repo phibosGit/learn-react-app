@@ -1,6 +1,6 @@
 {
   "name": "custom-react-scripts",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Configuration and scripts for create-react-app",
   "repository": "kitze/custom-react-scripts",
   "license": "BSD-3-Clause",
@@ -62,10 +62,10 @@
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.5.9",
     "webpack": "3.5.1",
+    "webpack-dashboard": "^1.0.0-2",
     "webpack-dev-server": "2.7.1",
     "webpack-manifest-plugin": "1.2.1",
-    "whatwg-fetch": "2.0.3",
-    "webpack-dashboard": "^1.0.0-2"
+    "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {
     "react": "^15.5.4",
