@@ -88,6 +88,25 @@ class App extends Component {
             </li>
           </ul>
 
+          <b>Other</b>
+
+          <ul className="configs babel-configs">
+            <li>
+              <code>REACT_APP_WEBPACK_DASHBOARD=true</code>
+              <span>
+                - Enables connection to {' '}
+                <a
+                  target="_blank"
+                  ref="noopener noreferrer"
+                  href="https://github.com/FormidableLabs/electron-webpack-dashboard"
+                >
+                  webpack-dashboard
+                </a>{' '}
+                 (must be installed)
+              </span>
+            </li>
+          </ul>
+
           <br />
           <br />
           <a
