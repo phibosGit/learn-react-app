@@ -25,6 +25,15 @@ Modify the ```.env``` file in the root of the generated project, and add any of 
 
 The generated project comes with every option turned on by default, but you can remove them at any time by removing the options from the ```.env``` file.
 
+#### Adding to an existing project
+
+```
+npm uninstall --save react-scripts;
+npm install --save custom-react-scripts;
+```
+
+Add a `.env.` file with the desired features.
+
 ### 📝 Configuration options
 
 #### Styling
