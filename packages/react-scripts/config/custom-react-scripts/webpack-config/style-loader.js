@@ -3,7 +3,7 @@ const extractTextPluginOptions = require('../options/extract-text-plugin-options
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const shouldUseSourceMap = process.env.GENERATE_SOURCEMAP !== 'false';
 const localIdentName =
-  process.env.REACT_APP_CSS_MODULE_IDENT_NAME ||
+  process.env.REACT_APP_CSS_MODULE_CLASSNAME_TEMPLATE ||
   '[sha512:hash:base32]-[name]-[local]';
 
 module.exports = (loader, test, exclude, modules) => isDev => {
