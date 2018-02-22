@@ -44,7 +44,7 @@ Add a `.env.` file with the desired features.
 - ```REACT_APP_SASS_MODULES=true``` - enable Sass modules
 - ```REACT_APP_LESS_MODULES=true``` - enable Less modules
 - ```REACT_APP_STYLUS_MODULES=true``` - enable Stylus modules
-- ```REACT_APP_CSS_MODULE_IDENT_NAME='module-[sha512:hash:base32]-[name]-[local]'``` - add custom CSS Module hash ident name
+- ```REACT_APP_CSS_MODULE_CLASSNAME_TEMPLATE='module-[sha512:hash:base32]-[name]-[local]'``` - add custom CSS Module hash ident name
 
 Note: to use modules the file must be named in the following format: ```$name.module.$preprocessorName```.
 
