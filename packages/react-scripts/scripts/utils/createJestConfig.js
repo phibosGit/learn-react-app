@@ -42,6 +42,7 @@ module.exports = (resolve, rootDir, isEjecting) => {
     transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$'],
     moduleNameMapper: {
       '^react-native$': 'react-native-web',
+      "\\.(s?css|styl|less)$": "identity-obj-proxy"
     },
     moduleFileExtensions: ['web.js', 'js', 'json', 'web.jsx', 'jsx', 'node'],
   };
@@ -67,20 +68,20 @@ module.exports = (resolve, rootDir, isEjecting) => {
       console.error(
         chalk.red(
           'Out of the box, Create React App only supports overriding ' +
-            'these Jest options:\n\n' +
-            supportedKeys.map(key => chalk.bold('  \u2022 ' + key)).join('\n') +
-            '.\n\n' +
-            'These options in your package.json Jest configuration ' +
-            'are not currently supported by Create React App:\n\n' +
-            unsupportedKeys
-              .map(key => chalk.bold('  \u2022 ' + key))
-              .join('\n') +
-            '\n\nIf you wish to override other Jest options, you need to ' +
-            'eject from the default setup. You can do so by running ' +
-            chalk.bold('npm run eject') +
-            ' but remember that this is a one-way operation. ' +
-            'You may also file an issue with Create React App to discuss ' +
-            'supporting more options out of the box.\n'
+          'these Jest options:\n\n' +
+          supportedKeys.map(key => chalk.bold('  \u2022 ' + key)).join('\n') +
+          '.\n\n' +
+          'These options in your package.json Jest configuration ' +
+          'are not currently supported by Create React App:\n\n' +
+          unsupportedKeys
+            .map(key => chalk.bold('  \u2022 ' + key))
+            .join('\n') +
+          '\n\nIf you wish to override other Jest options, you need to ' +
+          'eject from the default setup. You can do so by running ' +
+          chalk.bold('npm run eject') +
+          ' but remember that this is a one-way operation. ' +
+          'You may also file an issue with Create React App to discuss ' +
+          'supporting more options out of the box.\n'
         )
       );
       process.exit(1);
