@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className={cssStyles.header}>
+        <header className={cssStyles.header}>
           <img src={logo} className="App-logo" alt="logo" />
           <h2 className="App-title">
             <Emoji label="danger" emoji="☢" />
@@ -29,7 +29,7 @@ class App extends Component {
           <div className="App-subtitle">
             allow custom config for create-react-app without ejecting
           </div>
-        </div>
+        </header>
 
         <div className={stylusStyles.description}>
           <div className={sassStyles.command}>
@@ -102,7 +102,7 @@ class App extends Component {
                 >
                   webpack-dashboard
                 </a>{' '}
-                 (must be installed)
+                (must be installed)
               </span>
             </li>
           </ul>
