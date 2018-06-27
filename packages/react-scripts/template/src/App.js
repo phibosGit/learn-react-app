@@ -97,7 +97,7 @@ class App extends Component {
                 - Enables connection to {' '}
                 <a
                   target="_blank"
-                  ref="noopener noreferrer"
+                  rel="noopener noreferrer"
                   href="https://github.com/FormidableLabs/electron-webpack-dashboard"
                 >
                   webpack-dashboard
